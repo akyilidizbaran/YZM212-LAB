@@ -18,7 +18,7 @@ Bu proje, **Bernoulli Naive Bayes** algoritmasını hem `scikit-learn` kütüpha
 3. **Gereksiz Kelimelerin Kaldırılması**: "ve", "bir", "bu" gibi anlamsız kelimeler metinlerden çıkarılmıştır.
 4. **Köklerine Ayırma (Stemming)**: Kelimeler kök hallerine indirgenmiştir.
 
-Bu işlemler sonucunda, veri setindeki her bir belge, en çok kullanılan 20 kelimenin varlığı veya yokluğuna göre ikili (binary) özelliklerle temsil edilmiştir. Örneğin, bir kelime belgede mevcutsa 1, değilse 0 olarak kodlanmıştır. Bu sayede, Bernoulli Naive Bayes algoritmasının gerektirdiği ikili özellikler elde edilmiştir. :contentReference[oaicite:3]{index=3}
+Bu işlemler sonucunda, veri setindeki her bir belge, en çok kullanılan 20 kelimenin varlığı veya yokluğuna göre ikili (binary) özelliklerle temsil edilmiştir. Örneğin, bir kelime belgede mevcutsa 1, değilse 0 olarak kodlanmıştır. Bu sayede, Bernoulli Naive Bayes algoritmasının gerektirdiği ikili özellikler elde edilmiştir. 
 
 **Veri.xlsx** dosyası, bu önişleme adımlarından geçirilmiş ve ikili özelliklerle temsil edilen nihai veri setini içermektedir.
 
