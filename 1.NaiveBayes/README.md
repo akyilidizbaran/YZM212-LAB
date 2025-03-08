@@ -20,7 +20,7 @@ Bu proje, **Bernoulli Naive Bayes** algoritmasını hem `scikit-learn` kütüpha
 
 Bu işlemler sonucunda, veri setindeki her bir belge, en çok kullanılan 20 kelimenin varlığı veya yokluğuna göre ikili (binary) özelliklerle temsil edilmiştir. Örneğin, bir kelime belgede mevcutsa 1, değilse 0 olarak kodlanmıştır. Bu sayede, Bernoulli Naive Bayes algoritmasının gerektirdiği ikili özellikler elde edilmiştir. 
 
-**Veri.xlsx dosyası, projenin temelini oluşturan veri setini içermektedir. Bu veri seti aşağıdaki özelliklere sahiptir:
+**Veri.xlsx** dosyası, projenin temelini oluşturan veri setini içermektedir. Bu veri seti aşağıdaki özelliklere sahiptir:
 
 1. Özellikler (Features): Her bir satır, belirli özelliklere sahip bir örneği temsil eder. Örneğin, metin verileri için kelimelerin belgede bulunup bulunmadığını belirten ikili değerler (0 veya 1) kullanılabilir.
 
