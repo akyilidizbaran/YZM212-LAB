@@ -1,6 +1,6 @@
 # Bernoulli Naive Bayes Sınıflandırıcı Uygulaması
 
-Bu proje, **Bernoulli Naive Bayes** algoritmasını hem `scikit-learn` kütüphanesi kullanarak hem de manuel olarak Python dilinde uygulamayı amaçlamaktadır. Bernoulli Naive Bayes, özellikle ikili (binary) verilerle çalışmak üzere tasarlanmış, basit ve etkili bir olasılıksal makine öğrenmesi algoritmasıdır. :contentReference[oaicite:2]{index=2}
+Bu proje, **Bernoulli Naive Bayes** algoritmasını hem `scikit-learn` kütüphanesi kullanarak hem de manuel olarak Python dilinde uygulamayı amaçlamaktadır. Bernoulli Naive Bayes, özellikle ikili (binary) verilerle çalışmak üzere tasarlanmış, basit ve etkili bir olasılıksal makine öğrenmesi algoritmasıdır.
 
 ## Proje İçeriği
 
