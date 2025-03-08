@@ -70,3 +70,7 @@ Sonuç olarak, sklearn çözümü daha verimli ve pratik bir seçimdir. Ancak ma
 - [Naive Bayes Sınıflandırıcı - Vikipedi](https://tr.wikipedia.org/wiki/Naive_Bayes_s%C4%B1n%C4%B1fland%C4%B1r%C4%B1c%C4%B1s%C4%B1)
 - [Naive Bayes - Ultralytics](https://www.ultralytics.com/tr/glossary/naive-bayes)
 - [SMS Spam Collection Dataset - Kaggle](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset?resource=download)
+
+
+
+Baran Akyıldız 23290910 
