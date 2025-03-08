@@ -1,4 +1,4 @@
-# 🚀 Yapay Zeka ve Veri Mühendisliği - 4. Dönem Lab Çalışmaları
+# 🚀 Yapay Zeka ve Veri Mühendisliği - 4. Dönem 
 
 Bu depo, **Yapay Zeka ve Veri Mühendisliği** 4. dönem laboratuvar derslerinde işlenen konuların kodlarını, örnekleri ve dökümantasyonlarını içermektedir. 
 
