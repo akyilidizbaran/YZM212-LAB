@@ -51,7 +51,9 @@ Kodun çalışma süresi: 1.5344 saniye
 Performans Karşılaştırması:
 
 Doğruluk (Accuracy) açısından bakıldığında, sklearn ile yapılan uygulama %90.0, manuel uygulama ise %90.3 doğruluk oranına sahiptir. Aralarındaki fark oldukça küçük olup manuel model biraz daha yüksek doğruluk sağlamıştır.
+
 Hassasiyet (Precision) (Pozitif sınıf için) iki modelde de aynıdır ve %80.3 olarak hesaplanmıştır.
+
 Duyarlılık (Recall) (Pozitif sınıf için) manuel modelde biraz daha yüksektir. Sklearn ile yapılan model %30.0 duyarlılığa sahipken, manuel model %32.9 duyarlılığa sahiptir. Bu, manuel modelin pozitif sınıfları biraz daha iyi tahmin ettiğini göstermektedir.
 Kod Çalışma Süresi açısından bakıldığında, sklearn uygulaması 1.4630 saniyede, manuel uygulama ise 1.5344 saniyede çalışmıştır. Sklearn daha optimize olduğu için daha hızlıdır.
 
