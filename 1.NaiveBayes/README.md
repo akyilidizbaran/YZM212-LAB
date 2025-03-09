@@ -37,17 +37,27 @@ Confusion Matrix Değerleri:
 Scikit-learn ile yapılan uygulamada:
 
 954 doğru negatif (True Negative)
+
 11 yanlış pozitif (False Positive)
+
 105 yanlış negatif (False Negative)
+
 45 doğru pozitif (True Positive)
+
 Kodun çalışma süresi: 1.4630 saniye
+
 Manuel olarak kodlanan uygulamada:
 
 954 doğru negatif (True Negative)
+
 12 yanlış pozitif (False Positive)
+
 100 yanlış negatif (False Negative)
+
 49 doğru pozitif (True Positive)
+
 Kodun çalışma süresi: 1.5344 saniye
+
 Performans Karşılaştırması:
 
 Doğruluk (Accuracy) açısından bakıldığında, sklearn ile yapılan uygulama %90.0, manuel uygulama ise %90.3 doğruluk oranına sahiptir. Aralarındaki fark oldukça küçük olup manuel model biraz daha yüksek doğruluk sağlamıştır.
