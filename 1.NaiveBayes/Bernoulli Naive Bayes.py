@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 start_time = time.time()
 
 # 1. Veri setini yükleyin (xlsx dosyasından)
-data = pd.read_excel('C:\\Users\\Baran\\OneDrive\\Masaüstü\\1.NaiveBayes\\Veri.xlsx')  # Dosya yolunu düzenleyin
+data = pd.read_excel('C:\\Users\\Baran\\OneDrive\\Masaüstü\\1.NaiveBayes\\Veri.xlsx') 
 
 # 2. Özellikler (X) ve hedef (y) ayrımı
 # Son sütunun hedef değişken olduğu varsayılmıştır.
@@ -15,7 +15,6 @@ X = data.iloc[:, :-1].values
 y = data.iloc[:, -1].values
 
 # 3. Verileri binarize etme (Bernoulli NB için)
-# Örneğin medyan değer üzerinden eşikleme yapılabilir.
 medyan_deger = np.median(X, axis=0)
 X_bin = np.where(X > medyan_deger, 1, 0)
 
@@ -72,17 +71,12 @@ accuracy = np.mean(y_pred == y_test)
 print("Accuracy:", accuracy)
 
 # 8. Confusion Matrix hesaplama (sınıfların 0 ve 1 olduğunu varsayıyoruz)
-# TN = y_test=0 ve y_pred=0
-# FP = y_test=0 ve y_pred=1
-# FN = y_test=1 ve y_pred=0
-# TP = y_test=1 ve y_pred=1
 TN = np.sum((y_test == 0) & (y_pred == 0))
 FP = np.sum((y_test == 0) & (y_pred == 1))
 FN = np.sum((y_test == 1) & (y_pred == 0))
 TP = np.sum((y_test == 1) & (y_pred == 1))
 
-conf_mat = np.array([[TN, FP],
-                     [FN, TP]])
+conf_mat = np.array([[TN, FP], [FN, TP]])
 
 print("Confusion Matrix:")
 print(conf_mat)
