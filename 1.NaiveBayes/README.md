@@ -32,31 +32,16 @@ Veri setinin yapısı, Bernoulli Naive Bayes algoritmasının gereksinimlerine u
 
 Bu çalışmada, Bernoulli Naive Bayes algoritması iki farklı yöntemle uygulanmış ve sonuçları karşılaştırılmıştır:
 
-Confusion Matrix Değerleri:
+## Bernoulli Naive Bayes Algoritması Sonuç Karşılaştırması
 
-Scikit-learn ile yapılan uygulamada:
+Bu çalışmada, Bernoulli Naive Bayes algoritması iki farklı yöntemle uygulanmış ve sonuçları karşılaştırılmıştır.
 
-954 doğru negatif (True Negative)
+|                  | **True Negative** | **False Positive** | **False Negative** | **True Positive** | **Çalışma Süresi (saniye)** |
+|-----------------|------------------|------------------|------------------|------------------|--------------------|
+| **Scikit-learn**  | 954              | 11               | 105              | 45               | 1.4630             |
+| **Manuel Kodlama** | 954              | 12               | 100              | 49               | 1.5344             |
 
-11 yanlış pozitif (False Positive)
 
-105 yanlış negatif (False Negative)
-
-45 doğru pozitif (True Positive)
-
-Kodun çalışma süresi: 1.4630 saniye
-
-Manuel olarak kodlanan uygulamada:
-
-954 doğru negatif (True Negative)
-
-12 yanlış pozitif (False Positive)
-
-100 yanlış negatif (False Negative)
-
-49 doğru pozitif (True Positive)
-
-Kodun çalışma süresi: 1.5344 saniye
 
 Performans Karşılaştırması:
 
