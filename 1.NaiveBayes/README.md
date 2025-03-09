@@ -4,8 +4,8 @@ Bu proje, **Bernoulli Naive Bayes** algoritmasını hem `scikit-learn` kütüpha
 
 ## Proje İçeriği
 
-- **NaiveBayes.ipynb**: Bernoulli Naive Bayes algoritmasının `scikit-learn` kütüphanesi ile uygulanmasını içeren Jupyter Notebook dosyası.
-- **ManualBernoulliNB.ipynb**: Bernoulli Naive Bayes algoritmasının sıfırdan manuel olarak kodlandığı Jupyter Notebook dosyası.
+- **Bernoulli Naive Bayes w Sklearn.py**: Bernoulli Naive Bayes algoritmasının `scikit-learn` kütüphanesi ile uygulanmasını içeren python dosyası.
+- **Bernoulli Naive Bayes.py**: Bernoulli Naive Bayes algoritmasının sıfırdan manuel olarak kodlandığı python dosyası.
 - **archive.zip**: Modelin eğitimi ve test edilmesi için kullanılan ham veri setini içeren sıkıştırılmış dosya.
 - **Veri.xlsx**: Önişleme adımlarından geçirilmiş ve Bernoulli Naive Bayes algoritmasına uygun hale getirilmiş veri setini içeren Excel dosyası.
 
