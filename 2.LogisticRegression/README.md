@@ -27,25 +27,14 @@ Bu proje, **Ordinal Lojistik Regresyon** yöntemini kullanarak sıralı kategori
 
 ## Sonuçlar
 
-Her iki model de aynı eğitim ve test verileriyle değerlendirilmiş ve performansları karşılaştırılmıştır. Elde edilen sonuçlar aşağıdaki gibidir:
-
-|                  | **Doğru Negatif** | **Yanlış Pozitif** | **Yanlış Negatif** | **Doğru Pozitif** | **Doğruluk Oranı (%)** | **Çalışma Süresi (saniye)** |
-|------------------|-------------------|--------------------|--------------------|-------------------|------------------------|-----------------------------|
-| **Scikit-learn** | 954               | 11                 | 105                | 45                | 90.0                   | 1.4630                      |
-| **Manuel Kodlama** | 954               | 12                 | 100                | 49                | 90.3                   | 1.5344                      |
-
-**Performans Karşılaştırması:**
-
-- **Doğruluk Oranı (Accuracy)**: Scikit-learn ile yapılan uygulama %90.0, manuel uygulama ise %90.3 doğruluk oranına sahiptir. Aralarındaki fark oldukça küçük olup, manuel model biraz daha yüksek doğruluk sağlamıştır.
-- **Hassasiyet (Precision)**: Her iki modelde de %80.3 olarak hesaplanmıştır.
+- **Doğruluk Oranı (Accuracy)**: Scikit-learn ile yapılan uygulama %63.0, manuel uygulama ise %49.3 doğruluk oranına sahiptir. Aralarındaki fark fazlaca büyüktür. Bunun sebebi veri setinin yetersiz olması olabilir. Kütüphane ile yapılan uygulama çok daha fazla bir accuracy sağlamıştır.
 - **Duyarlılık (Recall)**: Manuel modelde biraz daha yüksektir. Scikit-learn ile yapılan model %30.0 duyarlılığa sahipken, manuel model %32.9 duyarlılığa sahiptir. Bu, manuel modelin pozitif sınıfları biraz daha iyi tahmin ettiğini göstermektedir.
-- **Çalışma Süresi**: Scikit-learn uygulaması 1.4630 saniyede, manuel uygulama ise 1.5344 saniyede çalışmıştır. Scikit-learn daha optimize olduğu için daha hızlıdır.
+- **Çalışma Süresi**: Scikit-learn uygulaması 0,0310 saniyede eğitilip, 0,0010 saniyede tahmin ettirilmiştir. Manuel uygulama ise 3,6675 saniyede eğitilip, 0,0279 saniyede test edilmiştir. Kütüphaneli uygulamanın hız fakötrü çok daha yüksektir.
 
 ## Kişisel Yorum
 
 - Scikit-learn kullanılarak yapılan uygulama, hız açısından daha avantajlıdır.
 - Manuel olarak kodlanan model, pozitif sınıfı biraz daha iyi tahmin etmiş (Recall değeri daha yüksek) ancak çalıştırma süresi biraz daha uzundur.
-- Genel doğruluk farkı çok küçük olduğu için (~%0.3), manuel uygulama daha fazla zaman harcamasına rağmen büyük bir iyileştirme sunmamaktadır.
 - Sonuç olarak, Scikit-learn çözümü daha verimli ve pratik bir seçimdir. Ancak manuel uygulama, modelin işleyişini daha iyi anlamak açısından oldukça değerli bir çalışma olmuştur.
 
 ## Kaynakça
