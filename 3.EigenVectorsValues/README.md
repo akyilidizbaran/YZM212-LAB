@@ -13,7 +13,7 @@
 - **Diğer Yaklaşımlar:** Yansıtmalı yöntemler, titreşim analizi ve Latent Semantic Analysis (LSA) gibi tekniklerde de özdeğer–özvektör ayrıştırması kritik rol oynar.
 
 **Kaynakça:**
-1. Brownlee, J. "Introduction to Matrices for Machine Learning." Machine Learning Mastery. Erişim: 
+1. Brownlee, J. "Introduction to Matrices for Machine Learning." Machine Learning Mastery. 
 2. Brownlee, J. "Introduction to Eigendecomposition, Eigenvalues and Eigenvectors." Machine Learning Mastery. 
 
 ## 2. NumPy `linalg.eig` Fonksiyonu
