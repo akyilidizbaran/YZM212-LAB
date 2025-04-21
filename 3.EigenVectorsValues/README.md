@@ -12,9 +12,9 @@
 - **Spektral Kümeleme:** Graf tabanlı yöntemlerde, graf Laplasyanı matrisinin özdeğerleri ve özvektörleri küme yapılarını ortaya çıkarır.
 - **Diğer Yaklaşımlar:** Yansıtmalı yöntemler, titreşim analizi ve Latent Semantic Analysis (LSA) gibi tekniklerde de özdeğer–özvektör ayrıştırması kritik rol oynar.
 
-**Örnek Kaynaklar:**
-1. Brownlee, J. "Introduction to Matrices for Machine Learning." Machine Learning Mastery. Erişim: 7 Nisan 2025.
-2. Brownlee, J. "Introduction to Eigendecomposition, Eigenvalues and Eigenvectors." Machine Learning Mastery. Erişim: 7 Nisan 2025.
+**Kaynakça:**
+1. Brownlee, J. "Introduction to Matrices for Machine Learning." Machine Learning Mastery. Erişim: 
+2. Brownlee, J. "Introduction to Eigendecomposition, Eigenvalues and Eigenvectors." Machine Learning Mastery. 
 
 ## 2. NumPy `linalg.eig` Fonksiyonu
 
