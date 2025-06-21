@@ -100,6 +100,7 @@ Gerçek dünya çok sınıflı bir sınıflandırma problemi.
 ## Sonuçlar ve Yorum
 - **Loss Eğrisi**:  
    <img width="425" alt="1" src="https://github.com/user-attachments/assets/31519daf-693a-4b67-a720-f055f38e4469" />
+   
   İlk epoch’lerde hızlı düşüş, 100. epoch’a ~1.38 civarında sabitlenme.  
 
 - **Confusion Matrix**:  
