@@ -99,11 +99,12 @@ Gerçek dünya çok sınıflı bir sınıflandırma problemi.
 
 ## Sonuçlar ve Yorum
 - **Loss Eğrisi**:  
-  ![Loss Curve](loss_curve.png)  
+   <img width="425" alt="1" src="https://github.com/user-attachments/assets/31519daf-693a-4b67-a720-f055f38e4469" />
   İlk epoch’lerde hızlı düşüş, 100. epoch’a ~1.38 civarında sabitlenme.  
 
 - **Confusion Matrix**:  
-  ![Confusion Matrix](confusion_matrix.png)  
+  <img width="419" alt="2" src="https://github.com/user-attachments/assets/af1ec05e-cb2d-4da0-b988-5456d92d4c55" />
+
   Sınıf dengesizliği nedeniyle çoğunlukla tip 2 tahmin edilmiş.  
 
 - **Test Doğruluğu**: `0.4876`  
