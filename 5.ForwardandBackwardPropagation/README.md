@@ -128,16 +128,5 @@ Gerçek dünya çok sınıflı bir sınıflandırma problemi.
    - `confusion_matrix.png`: test confusion matrix  
    - Konsol: epoch’lara göre loss ve final doğruluk  
 
-## Dosya Yapısı
-```
-forest-covertype-nn/
-├── data/
-│   └── covtype.data.gz
-├── train_covtype_nn.py
-├── loss_curve.png
-├── confusion_matrix.png
-├── README.md
-└── Requirements.txt
-```
 
 *Sinir ağı NumPy ile baştan yazıldı.*
