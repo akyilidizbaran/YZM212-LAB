@@ -1,17 +1,40 @@
-🚀 Yapay Zeka ve Veri Mühendisliği - 4. Dönem  
-Bu depo, Yapay Zeka ve Veri Mühendisliği 4. dönem laboratuvarlarında işlenen konuların kodlarını, örnekleri ve dokümantasyonlarını içermektedir.
+# Yapay Zeka ve Veri Muhendisligi - 4. Donem
 
-📂 İçerik  
-Bu repo, dönem boyunca işlenen konulara göre organize edilmiştir:
+Bu depo, Yapay Zeka ve Veri Muhendisligi 4. donem laboratuvarlarinda islenen konularin kodlarini, orneklerini ve dokumantasyonlarini icerir.
 
-📌 **Bernoulli Naive Bayes**  
-- Olasılıksal sınıflandırma, bağımsız değişken varsayımı ve metin madenciliği uygulamaları.
+## Icerik
 
-📌 **Logistic Regression**  
-- Doğrusal sınıflandırma, sigmoid aktivasyon fonksiyonu, karar sınırı oluşturma ve model değerlendirme metrikleri.
+Repo, donem boyunca islenen konulara gore organize edilmistir:
 
-📌 **EigenVectorsValues**  
-- Matris manipülasyonu, karakteristik polinom üzerinden özdeğer ve özvektör hesaplama; NumPy `linalg.eig` ile karşılaştırma.
+### 1.NaiveBayes
 
-📌 **Linear Regression**  
-- Sürekli değer tahmini, en küçük kareler (Least Squares) yöntemi, `scikit-learn` ile model kurulumu, maliyet fonksiyonu (MSE) hesaplama ve “Gerçek vs Tahmin” grafikleri.
+Bernoulli Naive Bayes tabanli siniflandirma uygulamalari, metin madenciligi yaklasimlari ve temel olasiliksal modelleme ornekleri.
+
+### 1.1
+
+HMM tabanli speech recognition projesi. Bu klasor adi bilerek `1.1` olarak tutulmustur ve izole kelime tanima odevi icin eklenen ara proje/surum numarasini temsil eder.
+
+Bu proje icinde:
+
+- `EV` kelimesi icin Viterbi algoritmasi ile teorik cozum,
+- `EV` ve `OKUL` icin ayri HMM modelleri,
+- `hmmlearn` tabanli siniflandirma kodu,
+- rapor ve PDF teslim dosyalari
+
+yer alir.
+
+### 2.LogisticRegression
+
+Dogrusal siniflandirma, sigmoid aktivasyon fonksiyonu, karar siniri olusturma ve model degerlendirme metrikleri.
+
+### 3.EigenVectorsValues
+
+Matris manipulasyonu, karakteristik polinom uzerinden ozdeger ve ozvektor hesaplama ve NumPy `linalg.eig` ile karsilastirma.
+
+### 4.LinearRegression
+
+Surekli deger tahmini, en kucuk kareler yontemi, `scikit-learn` ile model kurulumu ve gercek-tahmin karsilastirmalari.
+
+### 5.ForwardandBackwardPropagation
+
+Ileri ve geri yayilim mantigi, sinir agi egitimi ve ilgili veri setleri uzerinde deneyler.
