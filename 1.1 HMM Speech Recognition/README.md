@@ -1,4 +1,4 @@
-# 1.1 - HMM Speech Recognition
+# 1.1 HMM Speech Recognition
 
 Bu depo, YZM212 Makine Ogrenmesi dersi birinci laboratuvar odevinin cozumunu icerir. Gorev, HMM ile izole kelime tanima mantigini gostermek ve iki farkli kelime icin basit bir siniflandirici kurmaktir.
 

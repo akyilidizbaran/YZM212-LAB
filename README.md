@@ -10,9 +10,9 @@ Repo, donem boyunca islenen konulara gore organize edilmistir:
 
 Bernoulli Naive Bayes tabanli siniflandirma uygulamalari, metin madenciligi yaklasimlari ve temel olasiliksal modelleme ornekleri.
 
-### 1.1
+### 1.1 HMM Speech Recognition
 
-HMM tabanli speech recognition projesi. Bu klasor adi bilerek `1.1` olarak tutulmustur ve izole kelime tanima odevi icin eklenen ara proje/surum numarasini temsil eder.
+HMM tabanli speech recognition projesi. Bu klasor, repo icinde `1.1 HMM Speech Recognition` adi ile yer alir ve izole kelime tanima odevi icin eklenen ara projeyi temsil eder.
 
 Bu proje icinde:
 
