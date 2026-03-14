@@ -23,6 +23,10 @@ Bu proje icinde:
 
 yer alir.
 
+### 1.2 MLE Akilli Sehir Planlamasi
+
+Poisson dagilimi ve Maximum Likelihood Estimation (MLE) kullanilarak trafik yogunlugu modelleme, histogram-PMF karsilastirmasi ve outlier analizi yapilan notebook tabanli laboratuvar calismasi.
+
 ### 2.LogisticRegression
 
 Dogrusal siniflandirma, sigmoid aktivasyon fonksiyonu, karar siniri olusturma ve model degerlendirme metrikleri.
