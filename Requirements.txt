@@ -1,0 +1,10 @@
+hmmlearn
+jupyter
+matplotlib
+numpy
+openpyxl
+pandas
+reportlab
+scikit-learn
+scipy
+seaborn

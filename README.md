@@ -27,13 +27,13 @@ yer alir.
 
 Poisson dagilimi ve Maximum Likelihood Estimation (MLE) kullanilarak trafik yogunlugu modelleme, histogram-PMF karsilastirmasi ve outlier analizi yapilan notebook tabanli laboratuvar calismasi.
 
+### 1.3 EigenVectorValues
+
+Matris manipulasyonu, ozdeger ve ozvektor kavramlari, `numpy.linalg.eig` dokumani incelemesi ve LucasBN referans deposunun manuel karakteristik polinom yaklasimi ile NumPy karsilastirmasi.
+
 ### 2.LogisticRegression
 
 Dogrusal siniflandirma, sigmoid aktivasyon fonksiyonu, karar siniri olusturma ve model degerlendirme metrikleri.
-
-### 3.EigenVectorsValues
-
-Matris manipulasyonu, karakteristik polinom uzerinden ozdeger ve ozvektor hesaplama ve NumPy `linalg.eig` ile karsilastirma.
 
 ### 4.LinearRegression
 
