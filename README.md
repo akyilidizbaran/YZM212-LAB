@@ -31,6 +31,10 @@ Poisson dagilimi ve Maximum Likelihood Estimation (MLE) kullanilarak trafik yogu
 
 Matris manipulasyonu, ozdeger ve ozvektor kavramlari, `numpy.linalg.eig` dokumani incelemesi ve LucasBN referans deposunun manuel karakteristik polinom yaklasimi ile NumPy karsilastirmasi.
 
+### 1.4 BayesianBrightnessInference
+
+Gurultulu astronomi gozlemlerinden `mu` ve `sigma` parametrelerini Bayesyen cikarim ve `emcee` tabanli MCMC ile tahmin eden, prior etkisi ve veri miktari analizlerini iceren notebook + PDF rapor teslimi.
+
 ### 2.LogisticRegression
 
 Dogrusal siniflandirma, sigmoid aktivasyon fonksiyonu, karar siniri olusturma ve model degerlendirme metrikleri.
